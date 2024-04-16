@@ -5,6 +5,7 @@ name: pre-commit
 on:
   push:
   pull_request:
+  workflow-dispatch:
 
 permissions:
   contents: read #  to fetch code (actions/checkout)
